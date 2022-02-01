@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Kite+One&family=Montserrat:wght@400;700;800;900&display=swap");
+@import "variables";
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot"),
+    url("../fonts/icomoon/icomoon.ttf") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff") format("woff"),
+    url("../fonts/icomoon/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+///General///
+/***Colors***/
+.purple {
+  color: $colour-purple;
+}
+.dark-blue {
+  color: $colour-dark-blue;
+}
+.orange {
+  color: $colour-orange;
+}
+
+/***Text***/
+.text-bold {
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 19px;
+  color: #828282;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+///index.html///
+
+/***Navbar***/
+.navbar {
+  z-index: 2;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: $colour-violet-2;
+  box-shadow: 0px 1px 8px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav {
+  margin-right: 2.5rem;
+  align-items: end;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.logo {
+  width: 65px;
+}
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0 0.5rem;
+  &:hover {
+    border-bottom: 1.5px solid white;
+  }
+}
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+.dropdown-toggle::after {
+  transition: transform 0.15s linear;
+}
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+.dropdown-menu {
+  border: none;
+  background-color: #d205cd;
+}
+.dropdown-item {
+  color: white;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+}
+
+/*Rotadores*/
+.box-home {
+  position: relative;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: left;
+  color: white;
+  z-index: 15;
+  top: 0.5rem;
+}
+%module {
+  height: 59px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.box-home p {
+  @extend %module;
+  top: 6.5em;
+  margin: auto;
+  width: 100%;
+}
+.btn-sumate-rotador {
+  @extend %module;
+  top: 24em;
+  left: 605px;
+  width: 20%;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.box-text {
+  @extend %module;
+  line-height: 70px;
+  display: flex;
+  left: 375px;
+  top: 4.5em;
+  overflow: hidden;
+}
+.box-text ul {
+  list-style: none;
+  padding-left: 10px;
+  animation: rotator-text 7s infinite;
+}
+.box-text ul li {
+  text-transform: uppercase;
+}
+
+.box-text ul,
+p {
+  margin: 0;
+}
+@keyframes rotator-text {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -70px;
+  }
+  30% {
+    margin-top: -70px;
+  }
+  40% {
+    margin-top: -140px;
+  }
+  50% {
+    margin-top: -140px;
+  }
+  60% {
+    margin-top: -70px;
+  }
+  75% {
+    margin-top: -70px;
+  }
+  85% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/*Suscribite*/
+.img-bg-01 {
+  background-image: url(../img/bg-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
+.img-bg-01 h1 {
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.form-control {
+  width: 30%;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+::placeholder {
+  color: white !important;
+}
+.btn-suscribe {
+  background-color: white;
+  border-radius: 50px;
+  color: $colour-blue;
+  font-family: "Kite One", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.5rem 2.8rem;
+  margin-top: 2.5rem;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+}
+
+/*Quienes Somos*/
+.box-quienes-somos {
+  padding: 2rem 5.5rem;
+}
+.box-quienes-somos h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: $colour-dark-blue;
+}
+.box-quienes-somos p:last-child {
+  font-family: "Kite One", sans-serif;
+  color: $colour-pink;
+  margin-bottom: 2rem;
+}
+.img-quienes-somos {
+  background-image: url(../img/img-quienes-somos.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+/*Accordion*/
+.button-image-accordion {
+  background-image: url(../img/img-accordion-01.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+}
+.button-image-accordion p {
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  padding-right: 1.5rem;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  margin-left: -22rem;
+  width: 3.25rem;
+  height: 3.25rem;
+  background-size: 2.25rem;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.title-accordion {
+  color: $colour-violet-1;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.pills-accordion p {
+  background-color: $colour-orange;
+  border: 4px solid white;
+  border-radius: 50px;
+  padding: 1.5rem 3.5rem;
+  color: $colour-dark-blue;
+  margin: 3rem 1rem;
+  &:hover {
+    background-color: $colour-dark-blue;
+    color: white;
+  }
+}
+.accordion-item {
+  border: none;
+}
+.button-image-accordion-02 {
+  background-image: url(../img/img-accordion-02.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10rem;
+}
+.button-image-accordion-02 p {
+  color: white;
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+  padding-right: 1.5rem;
+}
+.img-accordion-collapse {
+  background-image: url(../img/img-accordion-collapse.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-collapse {
+  padding: 6rem 0;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.accordion-body-02 {
+  padding: 0;
+}
+.text-collapse-02 {
+  background-color: $colour-violet-2;
+  height: 19rem;
+}
+.text-collapse-02 p {
+  width: 80%;
+  color: white;
+  font-family: "Kite One", sans-serif;
+  margin: auto;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+/*Pills*/
+.pill-01 {
+  background-color: $colour-orange;
+  height: 10rem;
+  border-radius: 100px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+.pill-01 p {
+  color: $colour-dark-blue;
+  font-family: "Kite One", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.pill-01 a {
+  text-decoration: none;
+  color: $colour-dark-blue;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+}
+.container-elements-pill {
+  width: 53%;
+  height: 100%;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+.img-pill-01 {
+  background-image: url(../img/pill-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-pill-01 a {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+}
+.arrow-down-01 {
+  color: white;
+}
