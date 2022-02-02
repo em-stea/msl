@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kite+One&family=Montserrat:wght@400;700;800;900&display=swap");
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?iem1yg");
+  src: url("../fonts/icomoon/icomoon.eot?iem1yg#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?iem1yg") format("truetype"), url("../fonts/icomoon/icomoon.woff?iem1yg") format("woff"), url("../fonts/icomoon/icomoon.svg?iem1yg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -249,7 +250,7 @@ p {
 
 .img-bg-01 h1 {
   color: white;
-  font-weight: 700;
+  font-weight: 900;
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 2rem;
@@ -333,7 +334,7 @@ p {
 
 .button-image-accordion p {
   color: white;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   text-align: center;
   width: 100%;
@@ -398,7 +399,7 @@ p {
 
 .button-image-accordion-02 p {
   color: white;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 900;
   text-align: center;
   width: 100%;
@@ -442,8 +443,8 @@ p {
   background-color: #ffb500;
   height: 10rem;
   border-radius: 100px;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -475,8 +476,7 @@ p {
   text-align: center;
 }
 
-.img-pill-01 {
-  background-image: url(../img/pill-01.jpg);
+.img-pill-01, .img-pill-02, .img-pill-03 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -495,12 +495,670 @@ p {
           justify-content: center;
 }
 
-.img-pill-01 a {
+.img-pill-01 {
+  background-image: url(../img/pill-01.jpg);
+}
+
+.img-pill-02 {
+  background-image: url(../img/pill-02.jpg);
+}
+
+.img-pill-03 {
+  background-image: url(../img/pill-03.jpg);
+}
+
+.img-pill-01 a, .img-pill-02 a, .img-pill-03 a {
   background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  color: #460387;
+  font-weight: 700;
+}
+
+.img-pill-01 a:hover, .img-pill-02 a:hover, .img-pill-03 a:hover {
+  color: white;
+}
+
+.img-pill-01 span {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
   color: white;
   font-weight: 700;
 }
 
-.arrow-down-01 {
+.img-pill-01 span:hover {
   color: white;
+}
+
+.img-pill-02 span {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.img-pill-02 span:hover {
+  color: white;
+}
+
+.img-pill-03 span {
+  background-color: transparent;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.img-pill-03 span:hover {
+  color: white;
+}
+
+.arrow-down-01 {
+  color: #460387;
+  font-weight: 800;
+}
+
+.btn-collapse span:hover {
+  color: #460387;
+}
+
+.card-collapse {
+  border: none;
+  text-align: center;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*Equipo*/
+.img-equipo {
+  background-image: url(../img/img-equipo.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.img-equipo h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img-equipo p {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.img-consejo-directivo {
+  background-image: url(../img/img-consejo-directivo.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 22rem;
+}
+
+.img-consejo-directivo h1 {
+  color: white;
+  font-weight: 800;
+  padding: 4.5rem 5rem 2rem;
+  text-align: center;
+}
+
+.img-consejo-directivo p {
+  color: white;
+  padding: 0rem 5rem;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+/*Fundadora*/
+.background-fundadora {
+  background-color: #460387;
+}
+
+.background-fundadora h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.img-anita {
+  background-image: url(../img/img-anita.png);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 35rem;
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.box-text-founder {
+  margin: auto;
+}
+
+.box-text-founder h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d6017f;
+}
+
+.box-text-founder .text-first {
+  font-family: "Kite One", sans-serif;
+  color: #2c5edb;
+  font-size: 1.5rem;
+  width: 80%;
+}
+
+.box-text-founder .text-second {
+  color: #460387;
+  font-size: 1.2rem;
+  width: 80%;
+}
+
+.box-text-founder .text-third {
+  width: 80%;
+}
+
+/*Embajadoras*/
+.card-embajadoras {
+  background-color: transparent;
+  border: none;
+}
+
+.bio {
+  color: #2c5edb;
+  font-weight: 700;
+}
+
+.bg-texture-01 {
+  background-image: url(../img/texture-01.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.bg-texture-01 h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #ad03a9;
+  padding-top: 3rem;
+}
+
+.bg-texture-01 h4 {
+  text-align: center;
+  font-family: "Kite One", sans-serif;
+  color: #2c5edb;
+  padding-top: 0.6rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.box-info-embajadoras {
+  text-align: center;
+}
+
+.box-info-embajadoras a {
+  text-decoration: none;
+}
+
+.box-info-embajadoras h5 {
+  color: #ad03a9;
+  margin-top: 1rem;
+}
+
+.city-text {
+  font-size: 1rem;
+}
+
+.text-bio {
+  font-size: 0.9rem;
+}
+
+.box-info-embajadoras .icon-fb {
+  font-size: 1.5rem;
+  color: #2c5edb;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.8rem;
+}
+
+.box-info-embajadoras .icon-fb:hover {
+  background-color: #2c5edb;
+  color: white;
+  cursor: pointer;
+}
+
+.box-info-embajadoras .icon-ig {
+  font-size: 1.5rem;
+  color: #d6017f;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.8rem;
+}
+
+.box-info-embajadoras .icon-ig:hover {
+  background-color: #d6017f;
+  color: white;
+  cursor: pointer;
+}
+
+.ancho-row {
+  width: 90%;
+  margin: auto;
+}
+
+.img-embajadora {
+  width: 80%;
+}
+
+/*Sumate*/
+.img-sumate {
+  background-image: url(../img/img-sumate.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.img-sumate h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+}
+
+.bg-sumate {
+  background-color: #460387;
+  height: 20rem;
+}
+
+.bg-sumate h1 {
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.bg-sumate h2 {
+  font-family: "Kite One", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.bg-sumate span {
+  position: relative;
+  left: 44rem;
+  bottom: 5rem;
+  color: #460387;
+  background-color: white;
+  border-radius: 50px;
+  padding: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.bg-sumate p {
+  color: white;
+  font-weight: 700;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.bg-sumate p:last-child {
+  font-size: 1.5rem;
+}
+
+.box-number {
+  background-color: #eeedee;
+  border-radius: 50px;
+  width: 20%;
+  margin: 8rem 2rem 1rem 0;
+}
+
+.box-number:hover {
+  background-color: #d4d3d4;
+}
+
+.box-number h1 {
+  font-weight: 700;
+  font-size: 7rem;
+  text-align: center;
+  position: relative;
+  top: -5rem;
+}
+
+.number-impar {
+  color: #2c5edb;
+}
+
+.number-impar:hover {
+  color: #8537aa;
+}
+
+.number-par {
+  color: #8537aa;
+}
+
+.number-par:hover {
+  color: #2c5edb;
+}
+
+.box-number p {
+  font-family: "Kite One", sans-serif;
+  color: #8537aa;
+  text-align: center;
+  position: relative;
+  bottom: 4rem;
+  height: 100%;
+}
+
+/*Form sumate*/
+.img-form-sumate {
+  background-image: url(../img/img-form-sumate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.img-form-sumate h1 {
+  font-weight: 700;
+  color: #d6017f;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.img-form-sumate p {
+  color: #8537aa;
+  text-align: center;
+  font-weight: 700;
+}
+
+.form-sumate {
+  margin: auto;
+  padding: 4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-control-sumate {
+  width: 45%;
+}
+
+.form-sumate input {
+  border-bottom: 1px solid #707070 !important;
+}
+
+.form-sumate input::-webkit-input-placeholder {
+  color: #707070 !important;
+}
+
+.form-sumate input:-ms-input-placeholder {
+  color: #707070 !important;
+}
+
+.form-sumate input::-ms-input-placeholder {
+  color: #707070 !important;
+}
+
+.form-sumate input::placeholder {
+  color: #707070 !important;
+}
+
+.btn-enviar {
+  font-family: "Kite One", sans-serif;
+  font-size: 1.1rem;
+  color: #460387;
+  background-color: #ffb500;
+  border-radius: 50px;
+  border: none;
+  padding: 0.8rem 4rem;
+  width: 30%;
+  margin: auto;
+}
+
+.btn-enviar:hover {
+  background-color: #460387;
+  color: white;
+}
+
+/*Como Colaborar*/
+.img-colaborar {
+  background-image: url(../img/img-colaborar.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.img-colaborar h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+}
+
+.box-colaborar p:first-child {
+  color: #8537aa;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-top: 3rem;
+}
+
+.box-colaborar p:nth-child(2n) {
+  font-family: "Kite One", sans-serif;
+  text-align: center;
+  color: #2c5edb;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.box-colaborar p:last-child {
+  color: #7d7d7d;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.img-colaborar-01, .img-colaborar-02, .img-colaborar-03 {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  width: 28%;
+}
+
+.img-colaborar-01 {
+  background-image: url(../img/img-colaborar-01.jpg);
+}
+
+.img-colaborar-02 {
+  background-image: url(../img/img-colaborar-02.jpg);
+}
+
+.img-colaborar-03 {
+  background-image: url(../img/img-colaborar-03.jpg);
+}
+
+.img-colaborar-01 h1, .img-colaborar-02 h1, .img-colaborar-03 h1 {
+  font-family: "Kite One", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.img-colaborar-01 p, .img-colaborar-02 p, .img-colaborar-03 p {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.btn-colaborar {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 1rem 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-colaborar:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #460387;
+}
+
+/*Aula Virtual*/
+.img-aula {
+  background-image: url(../img/img-aula-virtual.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+}
+
+.img-atras-aula {
+  background-image: url(../img/img-aula-virtual-atras.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+}
+
+.img-aula h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: #460387;
+  padding: 4rem 0 1rem 0;
+  text-align: center;
+}
+
+.img-aula p {
+  color: #460387;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn-ver-mas {
+  color: #460387;
+  text-decoration: none;
+  border: 1px solid #460387;
+  border-radius: 50px;
+  padding: 0.8rem 4rem;
+  margin-bottom: 2rem;
+}
+
+.btn-ver-mas:hover {
+  background-color: #460387;
+  color: white;
+}
+
+.tarjeta {
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  height: 25rem;
+}
+
+.adelante,
+.atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.adelante h1 {
+  width: 80%;
+}
+
+.atras h1 {
+  color: white;
+}
+
+.atras h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+.text-proximamente,
+.text-adquiere {
+  font-family: "Kite One", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.text-proximamente {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.text-adquiere {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.text-oportunity {
+  width: 60%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.atras {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.tarjeta-wrap:hover .tarjeta {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
