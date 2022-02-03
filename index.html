@@ -50,36 +50,36 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Quiénes somos</a>
+                <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Qué hacemos</a>
+                <a class="nav-link" href="#que-hacemos">Qué hacemos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Equipo</a>
+                <a class="nav-link" href="#equipo">Equipo</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Súmate
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Cómo Colaborar</a></li>
+                  <li><a class="dropdown-item" href="#colaborar">Cómo Colaborar</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Aula virtual</a>
+                <a class="nav-link" href="#aula-virtual">Aula virtual</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Cumbre Mundial</a>
+                <a class="nav-link" href="#cumbre">Cumbre Mundial</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Iniciativas
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Acciones Sociales</a></li>
-                  <li><a class="dropdown-item" href="#">Campañas</a></li>
-                  <li><a class="dropdown-item" href="#">Premio Isabel Noboa</a></li>
+                  <li><a class="dropdown-item" href="acciones-sociales.html">Acciones Sociales</a></li>
+                  <li><a class="dropdown-item" href="campañas.html">Campañas</a></li>
+                  <li><a class="dropdown-item" href="premio-isabel-noboa.html">Premio Isabel Noboa</a></li>
                 </ul>
               </li>
             </ul>
@@ -100,7 +100,9 @@
             <li>oportunidades</li>
           </ul>
         </div>
-        <button type="button" class="btn btn-light btn-sumate-rotador">Súmate</button>
+        <a href="#sumate" class="btn btn-light btn-sumate-rotador">
+          Súmate
+        </a>
       </div>
       <img src="img/img_home.jpg" class="img-fluid px-0" alt="...">
     </div>
@@ -124,7 +126,7 @@
   <!--Quienes Somos-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-6 box-quienes-somos">
+      <div class="col-md-6 box-quienes-somos" id="quienes-somos">
         <h1>QUIÉNES 
         <br> 
         SOMOS</h1>
@@ -141,7 +143,7 @@
 
   <!--Accordion-->
   <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
+    <div class="accordion-item" id="que-hacemos">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button button-image-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">         
           <p>QUÉ HACEMOS</p>
@@ -215,7 +217,9 @@
         <div class="pill-01">
           <div class="container-elements-pill">
             <p>Comunidad</p>
-            <a href="">Conoce más</a>
+            <!--
+            <a href="#que-hacemos">Conoce más</a>
+            -->
           </div>
           <div class="img-pill-02">
             <p class="text-center">
@@ -241,7 +245,9 @@
         <div class="pill-01">
           <div class="container-elements-pill">
             <p>Ayuda Social</p>
+            <!--
             <a href="">Nuestras acciones</a>
+            -->
           </div>
           <div class="img-pill-03">
             <p class="text-center">
@@ -269,7 +275,7 @@
   <!--Equipo-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12-col-md-12 img-equipo">
+      <div class="col-12-col-md-12 img-equipo" id="equipo">
         <h1>EQUIPO</h1>
         <p>Juntas Avanzamos</p>
       </div>
@@ -313,6 +319,14 @@
         </p>
         <br>
         <p class="text-third">Es merecedora de importantes galardones por su gran labor nacional e internacional como "El Collarín de Oro por la Paz", a razón del legado y esfuerzo por la lucha de la equidad de género y otros múltiples reconocimientos que la hacen ser una mujer líder</p>
+        <div class="d-flex justify-content-start align-items-center mt-5 rrss-founder">
+          <a href="https://instagram.com/anitafernandezespinosa?utm_medium=copy_link" target="_blank">
+            <span class="icon-instagram icon-ig mx-2"></span>
+          </a>
+          <a href="https://www.facebook.com/anita.fernandezespinosa" target="_blank">
+            <span class="icon-facebook icon-fb mx-2"></span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -396,8 +410,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample6">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Cañar</p>
-                              <p class="text-bio">Se considera una persona responsable con alta orientación a resultados y al servicio, es activista Política- social, defensora de los Derechos de la Mujer, con habilidades de trabajo por las causas sociales, demostrando gran compromiso por la comunidad, estuvo en primera fila durante la emergencia Sanitaria del covid-19, trabajo en equipo, excelente comunicación interpersonal, conocimiento en Coaching Ejecutivo de Liderazgo.</p>
+                              <p class="city-text">Cañar.</p>
+                              <p class="text-bio">Activista Política- social, defensora de los Derechos de la Mujer y conocimientos en Coaching Ejecutivo de Liderazgo. Estuvo en primera fila durante la emergencia Sanitaria del Covid-19.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/mariazambrano.z/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -427,8 +441,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample7">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Morona Santiago</p>
-                              <p class="text-bio">Como madre, líder política y comunitaria quiero un Ecuador mucho más justo para nuestros hijos, por lo tanto, me estoy preparando día a día para afrontar los retos que se presenten, me gusta compartir mi trabajo con las demás personas y ser una influencia positiva para mi entorno</p>
+                              <p class="city-text">Morona Santiago.</p>
+                              <p class="text-bio">Madre, líder política y comunitaria que busca generar una influencia positiva para su entorno y un Ecuador más justo para nuestros.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/talia_cabrera_rivadeneira/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -462,8 +476,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample8">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Pastaza</p>
-                              <p class="text-bio">Mujer líder política y empresarial, Dra. en Naturopatia, graduada del Instituto Naturista y de Masaje científico Quiropráctico de Guatemala, con una Maestría Internacional en cuidados Paliativos Oncológicos de la Escuela de Negocios ESNECA School, diplomada en Liderazgo y Gerencia pública para Mujeres en la Escuela de Gobierno -IDE UNIVERSIDAD DE LOS HEMISFERIOS .</p>
+                              <p class="city-text">Pastaza.</p>
+                              <p class="text-bio">Líder política y empresarial. Dra. en Naturopatía con una Maestría Internacional en cuidados Paliativos Oncológicos.</p>
                               <a href="https://www.instagram.com/cumandaguevaraaguilar/?hl=es" target="_blank" class="mt-5">
                                 <span class="icon-instagram icon-ig mx-2"></span>
                               </a>
@@ -488,8 +502,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample9">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Santa Elena</p>
-                              <p class="text-bio">Consultora de negocios FreeLancer, finanzas empresariales, personales, declaraciones de impuestos para personas naturales no obligadas a llevar contabilidad, asesoría de proyectos, tesis de grado y emprendimientos.</p>
+                              <p class="city-text">Santa Elena.</p>
+                              <p class="text-bio">Consultora de negocios FreeLancer, finanzas empresariales, personales, declaraciones de impuestos, asesoría de proyectos, tesis de grado y emprendimientos.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/fayraveas/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -519,8 +533,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample10">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Los Ríos</p>
-                              <p class="text-bio"></p>
+                              <p class="city-text">Los Ríos.</p>
+                              <p class="text-bio">Profesional en Arquitectura Digital y especializada en construcción con conocimientos en manejo de equipos de alto rendimiento.</p>
                             </div>
                         </div>
                     </div>
@@ -542,8 +556,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample11">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Cotopaxi</p>
-                              <p class="text-bio">Mujer, madre, política que cada día busca trabajar a la par de las personas, instituciones y autoridades nacionales en base a planes, programas y proyectos en favor de los grupos de atención prioritaria y grupos vulnerables.</p>
+                              <p class="city-text">Cotopaxi.</p>
+                              <p class="text-bio">Mujer, madre y política. Trabaja con instituciones y autoridades nacionales en base a planes, programas y proyectos en favor de los grupos de atención prioritaria y grupos vulnerables.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/silvia.bravocajas/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -576,8 +590,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample12">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Guayas</p>
-                              <p class="text-bio">Empresaria, propietaria y gerente financiera de la empresa eléctrica” j/r electricidad y secretaria y directora de acción social de la fundación mujeres sin limites.</p>
+                              <p class="city-text">Guayas.</p>
+                              <p class="text-bio">Empresaria, propietaria y gerente financiera de la empresa eléctrica” j/r electricidad.</p>
                               <a href="https://www.facebook.com/esther.vidalcano" target="_blank" class="mt-5">
                                 <span class="icon-facebook icon-fb mx-2"></span>
                               </a>
@@ -602,8 +616,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample13">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Daule</p>
-                              <p class="text-bio"></p>
+                              <p class="city-text">Daule.</p>
+                              <p class="text-bio">Joven emprendedora, ágil y responsable. Particular enfoque en la ayuda social.</p>
                             </div>
                         </div>
                     </div>
@@ -653,8 +667,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample15">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Loja</p>
-                              <p class="text-bio">Abogada, Máster en Políticas y Gestión Pública, Diplomada en Comunicación y Campañas Electorales, Asesora de Imagen y Personal Branding.</p>
+                              <p class="city-text">Loja.</p>
+                              <p class="text-bio">Abogada con Máster en Políticas y Gestión Pública. Diplomada en Comunicación y Campañas Electorales. Asesora de Imagen y Personal Branding.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/xkarinagonzalez/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -712,8 +726,8 @@
                     <div class="col">
                         <div class="collapse " id="multiCollapseExample17">
                             <div class="card card-body card-embajadoras">
-                              <p class="city-text">Manabí</p>
-                              <p class="text-bio">Siempre activa en la ayuda social, luego tuvo la oportunidad de servir a la ciudadanía al ocupar con dignidad como Señora cada de Manta y Manabí. Actualmente presidio la Fundación de Amigos de Otro Planeta que se dedica a realizar actividades como cursos de defensa personal, talleres de empoderamiento femenino, asistencia psicológica a mujeres que han sufrido violencia intrafamiliar: fomentar la participación activa de los jóvenes en la sociedad; realzando murales con mensajes de concientización, sembrando árboles y huertos gestionando ayuda social sobre todo en sectores más vulnerables del cantón.</p>
+                              <p class="city-text">Manabí.</p>
+                              <p class="text-bio">Activa en la ayuda social y Señora casada de Manta y Manabí. Presidió la Fundación de Amigos de Otro Planeta.</p>
                               <div class="d-flex justify-content-center align-items-center mt-5">
                                 <a href="https://www.instagram.com/marcianavaldivieso/?hl=es" target="_blank">
                                   <span class="icon-instagram icon-ig mx-2"></span>
@@ -803,24 +817,24 @@
           <div class="col-12 col-md-3 text-center">
             <img src="img/imagen-faltante.png" class="img-embajadora" alt="Malu">
             <div class="card-body box-info-embajadoras">
-                <h5 class=""><strong>Malu</strong></h5>
-                <!--Collapse-->
-                <a class="btn btn-collapse" data-bs-toggle="collapse" href="#multiCollapseExample21" role="button" aria-expanded="false" aria-controls="multiCollapseExample21">
-                  <div class="bio">
-                    <span>Ver Bio</span>
-                    <span class="icon-chevron-down"></span>
-                  </div>
-                </a>
-                <div class="row">
-                    <div class="col">
-                        <div class="collapse " id="multiCollapseExample21">
-                            <div class="card card-body card-embajadoras">
-                              <p class="city-text">Galapagos</p>
-                              <p class="text-bio"></p>
-                            </div>
+              <h5 class=""><strong>Malu</strong></h5>
+              <!--Collapse-->
+              <a class="btn btn-collapse" data-bs-toggle="collapse" href="#multiCollapseExample21" role="button" aria-expanded="false" aria-controls="multiCollapseExample21">
+                <div class="bio">
+                  <span>Ver Bio</span>
+                  <span class="icon-chevron-down"></span>
+                </div>
+              </a>
+              <div class="row">
+                <div class="col">
+                    <div class="collapse " id="multiCollapseExample21">
+                        <div class="card card-body card-embajadoras">
+                          <p class="city-text">Galapagos</p>
+                          <p class="text-bio"></p>
                         </div>
                     </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -831,7 +845,7 @@
   <!--Sumate-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12-col-md-12 img-sumate">
+      <div class="col-12-col-md-12 img-sumate" id="sumate">
         <h1>¡SÚMATE!</h1>
       </div>
     </div>
@@ -894,7 +908,7 @@
    <!--Como Colaborar-->
    <div class="container-fluid">
     <div class="row">
-      <div class="col-12-col-md-12 img-colaborar">
+      <div class="col-12-col-md-12 img-colaborar" id="colaborar">
         <h1>CÓMO COLABORAR</h1>
       </div>
     </div>
@@ -912,28 +926,76 @@
         <br>cualquier
         <br> momento
         </h1>
-        <p>Con tu aporte y nuestro trabajo ayudamos a continuar en la lucha por un futuro más igualitario e inclusivo.</p>
+        <!--Collapse-->
+        <a class="btn btn-collapse-ver-mas d-flex justify-content-center" data-bs-toggle="collapse" href="#multiCollapseExample22" role="button" aria-expanded="false" aria-controls="multiCollapseExample22">
+          <div class="ver-mas">
+            <span>Ver más</span>
+            <span class="icon-chevron-down"></span>
+          </div>
+        </a>
+        <div class="row">
+          <div class="col">
+            <div class="collapse " id="multiCollapseExample22">
+                <div class="card card-body card-ver-mas">
+                  <p>Con tu aporte y nuestro trabajo ayudamos a continuar en la lucha por un futuro más igualitario e inclusivo.</p>
+                </div>
+            </div>
+          </div>
+        </div>
         <div class="d-flex justify-content-center">
-          <a href="" class="btn-colaborar">Quiero Donar</a>
+          <a href="como-colaborar.html" class="btn-colaborar">Quiero Donar</a>
         </div>
       </div>
       <div class="col-12 col-md-4 img-colaborar-02">
+        <br>
         <h1>Renueva 
         <br>  
         tu closet</h1>
         <br>
-        <p>Nuestras colaboradoras abren su closet y donan piezas favoritas de sus armarios para recaudar fondos en beneficio de la Fundación y sus acciones.</p>
+        <!--Collapse-->
+        <a class="btn btn-collapse-ver-mas d-flex justify-content-center" data-bs-toggle="collapse" href="#multiCollapseExample23" role="button" aria-expanded="false" aria-controls="multiCollapseExample23">
+          <div class="ver-mas">
+            <span>Ver más</span>
+            <span class="icon-chevron-down"></span>
+          </div>
+        </a>
+        <div class="row">
+          <div class="col">
+            <div class="collapse " id="multiCollapseExample23">
+                <div class="card card-body card-ver-mas">
+                  <p>Nuestras colaboradoras abren su closet y donan piezas favoritas de sus armarios para recaudar fondos en beneficio de la Fundación y sus acciones.</p>
+                </div>
+            </div>
+          </div>
+        </div>
         <div class="d-flex justify-content-center">
-          <a href="" class="btn-colaborar">Quiero Ver</a>
+          <a href="como-colaborar.html" class="btn-colaborar">Quiero Ver</a>
         </div>
       </div>
       <div class="col-12 col-md-4 img-colaborar-03">
+        <br>
         <h1>Dona 
         <br>  
         tu tiempo</h1>
-        <p>Acompáñanos en nuestras acciones y campañas para aumentar el alcance de las acciones de nuestra Fundación y empoderar a más mujeres por una ciudadanía plena.</p>
+        <br>
+        <!--Collapse-->
+        <a class="btn btn-collapse-ver-mas d-flex justify-content-center" data-bs-toggle="collapse" href="#multiCollapseExample24" role="button" aria-expanded="false" aria-controls="multiCollapseExample24">
+          <div class="ver-mas">
+            <span>Ver más</span>
+            <span class="icon-chevron-down"></span>
+          </div>
+        </a>
+        <div class="row">
+          <div class="col">
+            <div class="collapse " id="multiCollapseExample24">
+                <div class="card card-body card-ver-mas">
+                  <p>Acompáñanos en nuestras acciones y campañas para aumentar el alcance de las acciones de nuestra Fundación y empoderar a más mujeres por una ciudadanía plena.</p>
+                </div>
+            </div>
+          </div>
+        </div>
         <div class="d-flex justify-content-center">
-          <a href="" class="btn-colaborar">Quiero ser voluntario</a>
+          <a href="#sumate" class="btn-colaborar">Quiero ser voluntario</a>
         </div>
       </div>
     </div>
@@ -941,12 +1003,12 @@
 
   <!--Aula Virtual-->
   <div class="container-fluid">
-    <div class="row">
+    <div class="row mt-5">
       <div class="col-12 col-md-12 px-0">
         <div class="wrap">
           <div class="tarjeta-wrap">
             <div class="tarjeta">
-              <div class="adelante img-aula">
+              <div class="adelante img-aula"  id="aula-virtual">
                 <h1>AULA VIRTUAL</h1>
                 <p>Sesiones sin límites</p>
                 <div class="d-flex justify-content-center d-block d-md-none">
@@ -969,6 +1031,87 @@
       </div>
     </div>
   </div>
+
+  <!--Cumbre-->
+  <div class="container-fluid container-box-cumbre" id="cumbre">
+    <div class="row">
+      <div class="col-12 col-md-6 box-text-cumbre">
+        <h1>Capacitar, conectar y empoderar</h1>
+        <br>
+        <p>a Mujeres Líderes en todo el mundo a través de encuentros de inspiración, reflexión y motivación de la mano de grandes referentes y mentoras.</p>
+        <div>
+          <a href="https://cumbremundialmujeres.com/" target="_blank">Quiero saber más</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 bg-cumbre">
+        <h1>CUMBRE</h1>
+      </div>
+    </div>
+  </div>
+
+  <!--Encontranos-->
+  <div class="container-fluid">
+    <div class="row pb-5">
+      <h1 class="find-text">Encontranos</h1>
+      <div class="col-12 col-md-4 box-icon">
+        <span class="icon-location"></span>
+        <p>9 de Octubre #100 Y Malecon, Piso 30 oficina 3002. 
+        <br>  
+        Guayaquil, Ecuador.</p>
+      </div>
+      <div class="col-12 col-md-4 box-icon">
+        <span class="icon-phone"></span>
+        <p>+593 98 384  7124</p>
+      </div>
+      <div class="col-12 col-md-4 box-icon">
+        <span class="icon-envelope"></span>
+        <p>mujeressinlimites.ecuador@gmail.com</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Map-->
+  <div class="container-fluid px-0">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d19102.429046777856!2d-79.88724213296426!3d-2.1914388940946985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s9%20de%20Octubre%20%23100%20Y%20Malecon%2C%20Piso%2030%20oficina%203002.%20Guayaquil%2C%20Ecuador.!5e0!3m2!1ses-419!2sar!4v1643896946056!5m2!1ses-419!2sar" width="1520" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <!--Footer-->
+  <footer class="container-fluid px-0">
+    <div class="bg-footer">
+      <div class="row">
+        <div class="col-12">
+          <img src="img/logo-msl.png" alt="" class="logo-footer">
+        </div>
+      </div>
+      <div class="row box-text-footer">
+        <div class="col-12 col-md-6">
+          <h1>Prensa</h1>
+          <p>Para coordinar entrevistas, o cualquier otro tema relacionado con prensa comunicarse vía mail a xxxx@xxx.xxx.xx o al teléfono +593 98 384  7124</p>
+        </div>
+        <div class="col-12 col-md-6 box-rrss">
+          <h1>Redes Sociales</h1>
+          <span class="icon-instagram"></span>
+          <span class="icon-facebook"></span>
+          <span class="icon-youtube"></span>
+        </div>
+      </div>
+    </div>
+    <div class="bg-footer-2">
+      <div class="row">
+        <div class="col-12 col-md-2">
+          <p>© 2022
+            <a href="http://www.telocreo.studio/" target="_blank"> Telocreo.studio </a>
+          </p>
+        </div>
+        <div class="col-12 col-md-10">
+          <a href="politicas-de-privacidad.html">
+            <p>Políticas de Privacidad</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
   
 

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kite+One&family=Montserrat:wght@400;700;800;900&display=swap");
 @font-face {
   font-family: "icomoon";
@@ -19,6 +20,10 @@
 
 .orange {
   color: #ffb500;
+}
+
+.pink {
+  color: #d6017f;
 }
 
 /***Text***/
@@ -145,6 +150,8 @@ body {
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.5);
   color: white;
+  padding-top: 1rem;
+  font-size: 1.1rem;
 }
 
 .box-text {
@@ -669,6 +676,38 @@ p {
   width: 80%;
 }
 
+.rrss-founder a {
+  text-decoration: none;
+}
+
+.rrss-founder .icon-fb {
+  font-size: 1.3rem;
+  color: white;
+  background-color: #2c5edb;
+  border-radius: 50px;
+  padding: 0.6rem;
+}
+
+.rrss-founder .icon-fb:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #2c5edb;
+  cursor: pointer;
+}
+
+.rrss-founder .icon-ig {
+  font-size: 1.3rem;
+  color: white;
+  background-color: #d6017f;
+  border-radius: 50px;
+  padding: 0.6rem;
+}
+
+.rrss-founder .icon-ig:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #d6017f;
+  cursor: pointer;
+}
+
 /*Embajadoras*/
 .card-embajadoras {
   background-color: transparent;
@@ -962,7 +1001,7 @@ p {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 700;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 .box-colaborar p:nth-child(2n) {
@@ -979,7 +1018,7 @@ p {
   font-size: 1.4rem;
   text-align: center;
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .img-colaborar-01, .img-colaborar-02, .img-colaborar-03 {
@@ -1003,19 +1042,31 @@ p {
 }
 
 .img-colaborar-01 h1, .img-colaborar-02 h1, .img-colaborar-03 h1 {
-  font-family: "Kite One", sans-serif;
+  font-weight: 900;
   color: white;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
-.img-colaborar-01 p, .img-colaborar-02 p, .img-colaborar-03 p {
+.ver-mas {
   color: white;
   font-weight: 700;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+
+.btn-collapse-ver-mas:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.card-ver-mas {
+  background-color: transparent;
   font-size: 1rem;
+  color: white;
   text-align: center;
-  width: 80%;
-  margin: auto;
+  font-weight: 700;
+  border: none;
 }
 
 .btn-colaborar {
@@ -1026,7 +1077,7 @@ p {
   border: 1px solid white;
   border-radius: 50px;
   padding: 1rem 3.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -1161,4 +1212,782 @@ p {
 .tarjeta-wrap:hover .tarjeta {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+/*Cumbre*/
+.container-box-cumbre {
+  margin-top: 4rem;
+  background-color: #f0f0f0;
+}
+
+.bg-cumbre {
+  background-image: url(../img/img-cumbre.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 33rem;
+}
+
+.bg-cumbre h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 33rem;
+}
+
+.box-text-cumbre h1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #ad03a9;
+  font-weight: 900;
+}
+
+.box-text-cumbre {
+  margin: auto;
+}
+
+.box-text-cumbre p {
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  margin-bottom: 2.5rem;
+}
+
+.box-text-cumbre div {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.box-text-cumbre a {
+  text-decoration: none;
+  background-color: #d6017f;
+  color: white;
+  font-family: "Kite One", sans-serif;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+}
+
+.box-text-cumbre a:hover {
+  background-color: #ad03a9;
+  color: white;
+}
+
+/*Encontranos*/
+.find-text {
+  margin: 4rem 0 3rem 0;
+  color: #2c5edb;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.icon-location,
+.icon-phone,
+.icon-envelope {
+  color: #ffb500;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.icon-location:hover,
+.icon-phone:hover,
+.icon-envelope:hover {
+  color: #d6017f;
+}
+
+.box-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-icon p {
+  color: #2c5edb;
+  text-align: center;
+  width: 80%;
+  font-size: 1rem;
+}
+
+/*Footer*/
+.bg-footer {
+  background-color: #d6017f;
+  padding-left: 2rem;
+}
+
+.logo-footer {
+  padding-top: 2rem;
+  width: 6%;
+}
+
+.box-text-footer h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.box-text-footer p {
+  color: white;
+  font-size: 0.85rem;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.box-rrss span {
+  color: white;
+  font-size: 1.5rem;
+  padding-right: 0.6rem;
+}
+
+.box-rrss span:hover {
+  color: #460387;
+  cursor: pointer;
+}
+
+.bg-footer-2 {
+  background-color: #460387;
+  padding-left: 2rem;
+}
+
+.bg-footer-2 p {
+  color: white;
+  font-size: 0.8rem;
+  padding: 1.5rem 0;
+}
+
+.bg-footer-2 a {
+  color: white;
+  text-decoration: none;
+}
+
+.bg-footer-2 a:hover {
+  text-decoration: underline;
+}
+
+/*Como colaborar*/
+.img-como-colaborar {
+  background-image: url(../img/img-como-colaborar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-como-colaborar h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img-como-colaborar p {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  width: 60%;
+}
+
+.box-colaborar-01 p:first-child {
+  color: #460387;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.box-colaborar-01 p:last-child {
+  font-family: "Kite One", sans-serif;
+  color: #ad03a9;
+  font-size: 1.7rem;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.box-donaciones h1 {
+  color: #ad03a9;
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.arrow-donaciones {
+  color: #460387;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.arrow-donaciones span:hover {
+  color: #d6017f;
+}
+
+.card-donaciones {
+  background-color: transparent;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  border: none;
+}
+
+.card-donaciones p:first-child {
+  color: #460387;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.arrow-animation {
+  -webkit-animation-name: arrowDown;
+          animation-name: arrowDown;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes arrowDown {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    left: 0;
+    top: 0px;
+  }
+  75% {
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+
+@keyframes arrowDown {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    left: 0;
+    top: 0px;
+  }
+  75% {
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+
+.bg-extensible {
+  background-color: #d6017f;
+  margin-top: 2rem;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.bg-extensible p:first-child {
+  font-family: "Kite One", sans-serif;
+  font-size: 2rem;
+}
+
+.bg-extensible p:nth-child(2) {
+  width: 60%;
+  margin: 2rem auto;
+  font-weight: 700;
+}
+
+.bg-extensible h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+/*Botones de pago*/
+.img-boton-01 {
+  background-image: url(../img/logo-msl-boton.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ad03a9;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  border: 7px solid #ffb500;
+}
+
+.img-boton-01:hover {
+  background-color: #460387;
+}
+
+.bg-container-donate {
+  border-radius: 40px;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 5rem;
+}
+
+.box-donate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 3rem;
+}
+
+.box-donate p,
+.box-button-02 p {
+  color: #460387;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.box-button-02 {
+  background-color: #ad03a9;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  border: 7px solid #ffb500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box-button-02:hover {
+  background-color: #460387;
+}
+
+.box-button-02 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/*Renueva tu closet*/
+.box-closet {
+  background-color: #ffb500;
+  color: white;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.box-closet h1 {
+  font-family: "Kite One", sans-serif;
+  color: #460387;
+}
+
+.box-closet h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #460387;
+}
+
+.arrow-closet {
+  color: #460387;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.arrow-closet span:hover {
+  color: #d6017f;
+}
+
+.card-closet {
+  background-color: #f0f0f0;
+  color: #460387;
+}
+
+.card-closet p:first-child {
+  width: 55%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.card-closet p:last-child {
+  width: 55%;
+  margin: auto;
+  padding: 2rem 0;
+  font-family: "Kite One", sans-serif;
+  font-size: 1.8rem;
+}
+
+/*Premio Isabel Noboa*/
+.img-premio {
+  background-image: url(../img/img-premio-isabel-noboa.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-premio h1 {
+  color: #460387;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.container-text-premio {
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-text-premio p {
+  width: 80%;
+}
+
+.container-text-premio p:first-child {
+  color: #460387;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.container-text-premio p:last-child {
+  font-family: "Kite One", sans-serif;
+  color: #2c5edb;
+  font-size: 1.3rem;
+}
+
+/*Accion Social*/
+.img-accion-social {
+  background-image: url(../img/img-accion-social.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-accion-social h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img-accion-social p {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  margin-bottom: 3rem;
+  width: 45%;
+}
+
+/*Swiper*/
+.img-portada-01, .img-portada-02, .img-portada-03, .img-portada-04, .img-portada-05, .img-portada-06, .img-portada-07, .img-portada-08 {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+}
+
+.img-portada-01 {
+  background-image: url(../img/portada-accion-01.jpg);
+}
+
+.img-portada-02 {
+  background-image: url(../img/portada-accion-02.jpg);
+}
+
+.img-portada-03 {
+  background-image: url(../img/portada-accion-03.jpg);
+}
+
+.img-portada-04 {
+  background-image: url(../img/portada-accion-04.jpg);
+}
+
+.img-portada-05 {
+  background-image: url(../img/portada-accion-05.jpg);
+}
+
+.img-portada-06 {
+  background-image: url(../img/portada-accion-06.jpg);
+}
+
+.img-portada-07 {
+  background-image: url(../img/portada-accion-07.jpg);
+}
+
+.img-portada-08 {
+  background-image: url(../img/portada-accion-08.jpg);
+}
+
+.container-fluid-swiper {
+  font-size: 14px;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 80vh;
+}
+
+.container-swiper {
+  width: 90%;
+  padding: 10px 40px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.card-title h4 {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.card-description button {
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.card-description button:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.container-swiper .swiper-slide {
+  position: relative;
+  text-align: start;
+  font-size: 18px;
+  border-radius: 15px;
+}
+
+.container-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+  color: white !important;
+  padding: 1rem;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1rem !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+/*Ventana modal*/
+.modal-backdrop {
+  z-index: 0;
+}
+
+.modal-top-acciones {
+  height: auto;
+  overflow-y: hidden;
+}
+
+.modal-content {
+  margin-top: 1rem;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+/*Campañas*/
+.img-campañas {
+  background-image: url(../img/img-camp.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-campañas h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.img-campañas p {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.text-prox-camp {
+  color: #2c5edb;
+  font-weight: 900;
+  text-align: center;
+  padding: 6rem 0;
 }
