@@ -729,7 +729,8 @@ p {
 
 .bg-texture-01 h1 {
   text-align: center;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 3rem;
   color: #ad03a9;
   padding-top: 3rem;
 }
@@ -1331,6 +1332,10 @@ p {
 }
 
 /*Footer*/
+.text-mail-footer {
+  font-size: 0.7rem;
+}
+
 .bg-footer {
   background-color: #d6017f;
 }
@@ -1608,8 +1613,7 @@ iframe {
   padding-top: 3rem;
 }
 
-.box-donate p,
-.box-button-02 p {
+.box-donate p {
   color: #460387;
   font-weight: 700;
   text-align: center;

@@ -299,14 +299,18 @@
   }
   /*Footer*/
   .logo-footer {
-    width: 30%;
+    width: 40%;
     margin-bottom: 1rem;
+    padding-left: 0;
   }
   .box-rrss {
     margin-bottom: 3rem;
   }
   .bg-footer-2 {
     padding: 2rem 2rem;
+  }
+  .box-text-footer {
+    padding-left: 1rem;
   }
   .box-text-footer p {
     width: 90%;
@@ -315,6 +319,58 @@
   .bg-footer-2 p:first-child {
     padding-bottom: 0;
     padding-top: 0.5rem;
+  }
+
+  /*Colaborar page*/
+  .img-como-colaborar h1 {
+    font-size: 2rem;
+  }
+  .img-como-colaborar p {
+    width: 90%;
+  }
+  .box-donaciones h1 {
+    font-size: 2rem;
+  }
+  .card-donaciones p:first-child {
+    width: 90%;
+  }
+  .bg-extensible p:nth-child(2) {
+    width: 90%;
+  }
+  /*Renueva tu closet*/
+  .card-closet p:first-child {
+    width: 90%;
+  }
+  .card-closet p:last-child {
+    width: 90%;
+  }
+  /*Campañas*/
+  .img-campañas h1 {
+    font-size: 1.9rem;
+  }
+  /*Acciones Sociales*/
+  .img-accion-social h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-accion-social p {
+    width: 90%;
+  }
+  .container-fluid-swiper {
+    min-height: 50vh;
+  }
+  .img-portada-01,
+  .img-portada-02,
+  .img-portada-03,
+  .img-portada-04,
+  .img-portada-05,
+  .img-portada-06,
+  .img-portada-07,
+  .img-portada-08 {
+    height: 18rem;
+  }
+  .modal-content {
+    margin-top: 16rem;
   }
 }
 @media screen and (min-width: 301px) and (max-width: 400px) {
@@ -613,6 +669,57 @@
   .bg-footer-2 p:first-child {
     padding-bottom: 0;
     padding-top: 0.5rem;
+  }
+  /*Colaborar page*/
+  .img-como-colaborar h1 {
+    font-size: 2rem;
+  }
+  .img-como-colaborar p {
+    width: 90%;
+  }
+  .box-donaciones h1 {
+    font-size: 2rem;
+  }
+  .card-donaciones p:first-child {
+    width: 90%;
+  }
+  .bg-extensible p:nth-child(2) {
+    width: 90%;
+  }
+  /*Renueva tu closet*/
+  .card-closet p:first-child {
+    width: 90%;
+  }
+  .card-closet p:last-child {
+    width: 90%;
+  }
+  /*Campañas*/
+  .img-campañas h1 {
+    font-size: 2.3rem;
+  }
+  /*Acciones Sociales*/
+  .img-accion-social h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-accion-social p {
+    width: 90%;
+  }
+  .container-fluid-swiper {
+    min-height: 50vh;
+  }
+  .img-portada-01,
+  .img-portada-02,
+  .img-portada-03,
+  .img-portada-04,
+  .img-portada-05,
+  .img-portada-06,
+  .img-portada-07,
+  .img-portada-08 {
+    height: 18rem;
+  }
+  .modal-content {
+    margin-top: 16rem;
   }
 }
 @media screen and (min-width: 401px) and (max-width: 423px) {
@@ -997,6 +1104,53 @@
     padding-bottom: 0;
     padding-top: 0.5rem;
   }
+  /*Colaborar page*/
+  .img-como-colaborar h1 {
+    font-size: 2rem;
+  }
+  .img-como-colaborar p {
+    width: 90%;
+  }
+  .box-donaciones h1 {
+    font-size: 2rem;
+  }
+  .card-donaciones p:first-child {
+    width: 90%;
+  }
+  .bg-extensible p:nth-child(2) {
+    width: 90%;
+  }
+  /*Renueva tu closet*/
+  .card-closet p:first-child {
+    width: 90%;
+  }
+  .card-closet p:last-child {
+    width: 90%;
+  }
+  /*Acciones Sociales*/
+  .img-accion-social h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-accion-social p {
+    width: 90%;
+  }
+  .container-fluid-swiper {
+    min-height: 50vh;
+  }
+  .img-portada-01,
+  .img-portada-02,
+  .img-portada-03,
+  .img-portada-04,
+  .img-portada-05,
+  .img-portada-06,
+  .img-portada-07,
+  .img-portada-08 {
+    height: 18rem;
+  }
+  .modal-content {
+    margin-top: 16rem;
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 650px) {
   /*Rotadores*/
@@ -1303,6 +1457,53 @@
   .bg-footer-2 p:first-child {
     padding-bottom: 0;
     padding-top: 0.5rem;
+  }
+  /*Colaborar page*/
+  .img-como-colaborar h1 {
+    font-size: 2.5rem;
+  }
+  .img-como-colaborar p {
+    width: 90%;
+  }
+  .box-donaciones h1 {
+    font-size: 2rem;
+  }
+  .card-donaciones p:first-child {
+    width: 90%;
+  }
+  .bg-extensible p:nth-child(2) {
+    width: 90%;
+  }
+  /*Renueva tu closet*/
+  .card-closet p:first-child {
+    width: 90%;
+  }
+  .card-closet p:last-child {
+    width: 90%;
+  }
+  /*Acciones Sociales*/
+  .img-accion-social h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-accion-social p {
+    width: 90%;
+  }
+  .container-fluid-swiper {
+    min-height: 50vh;
+  }
+  .img-portada-01,
+  .img-portada-02,
+  .img-portada-03,
+  .img-portada-04,
+  .img-portada-05,
+  .img-portada-06,
+  .img-portada-07,
+  .img-portada-08 {
+    height: 18rem;
+  }
+  .modal-content {
+    margin-top: 16rem;
   }
 }
 @media screen and (min-width: 651px) and (max-width: 766px) {
@@ -1614,5 +1815,52 @@
   .bg-footer-2 p:first-child {
     padding-bottom: 0;
     padding-top: 0.5rem;
+  }
+  /*Colaborar page*/
+  .img-como-colaborar h1 {
+    font-size: 3rem;
+  }
+  .img-como-colaborar p {
+    width: 90%;
+  }
+  .box-donaciones h1 {
+    font-size: 2rem;
+  }
+  .card-donaciones p:first-child {
+    width: 90%;
+  }
+  .bg-extensible p:nth-child(2) {
+    width: 90%;
+  }
+  /*Renueva tu closet*/
+  .card-closet p:first-child {
+    width: 90%;
+  }
+  .card-closet p:last-child {
+    width: 90%;
+  }
+  /*Acciones Sociales*/
+  .img-accion-social h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+  }
+  .img-accion-social p {
+    width: 90%;
+  }
+  .container-fluid-swiper {
+    min-height: 50vh;
+  }
+  .img-portada-01,
+  .img-portada-02,
+  .img-portada-03,
+  .img-portada-04,
+  .img-portada-05,
+  .img-portada-06,
+  .img-portada-07,
+  .img-portada-08 {
+    height: 18rem;
+  }
+  .modal-content {
+    margin-top: 16rem;
   }
 }
