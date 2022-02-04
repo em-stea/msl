@@ -725,7 +725,7 @@
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 500px) {
+@media screen and (min-width: 401px) and (max-width: 423px) {
   /*Rotadores*/
   .box-home {
     top: -2.5rem;
@@ -740,11 +740,11 @@
     left: 42px;
     line-height: 4rem;
     top: 8.8rem;
-    height: 31px;
-    line-height: 30px;
+    height: 28px;
+    line-height: 27px;
   }
   .box-text ul li {
-    font-size: 30px;
+    font-size: 27px;
   }
   @-webkit-keyframes rotator-text {
     0% {
@@ -754,22 +754,22 @@
       margin-top: 0;
     }
     20% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     30% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     40% {
-      margin-top: -60px;
+      margin-top: -54px;
     }
     50% {
-      margin-top: -60px;
+      margin-top: -54px;
     }
     60% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     75% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     85% {
       margin-top: 0px;
@@ -786,22 +786,22 @@
       margin-top: 0;
     }
     20% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     30% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     40% {
-      margin-top: -60px;
+      margin-top: -54px;
     }
     50% {
-      margin-top: -60px;
+      margin-top: -54px;
     }
     60% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     75% {
-      margin-top: -30px;
+      margin-top: -27px;
     }
     85% {
       margin-top: 0px;
@@ -812,12 +812,110 @@
   }
   .btn-sumate-rotador {
     top: 12rem;
-    left: 87px;
+    left: 102px;
     width: 60%;
     height: 35px;
     padding-top: 0.5rem;
     font-size: 0.8rem;
   }
+}
+
+@media screen and (min-width: 424px) and (max-width: 500px) {
+  /*Rotadores*/
+  .box-home {
+    top: -2.5rem;
+    font-size: 30px;
+  }
+  .box-home p {
+    left: 1.1rem;
+    top: 13.5rem;
+    font-size: 2.3rem;
+  }
+  .box-text {
+    left: 68px;
+    line-height: 4rem;
+    top: 8.8rem;
+    height: 28px;
+    line-height: 27px;
+  }
+  .box-text ul li {
+    font-size: 27px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -27px;
+    }
+    30% {
+      margin-top: -27px;
+    }
+    40% {
+      margin-top: -54px;
+    }
+    50% {
+      margin-top: -54px;
+    }
+    60% {
+      margin-top: -27px;
+    }
+    75% {
+      margin-top: -27px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -27px;
+    }
+    30% {
+      margin-top: -27px;
+    }
+    40% {
+      margin-top: -54px;
+    }
+    50% {
+      margin-top: -54px;
+    }
+    60% {
+      margin-top: -27px;
+    }
+    75% {
+      margin-top: -27px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .btn-sumate-rotador {
+    top: 12rem;
+    left: 102px;
+    width: 60%;
+    height: 35px;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
   /*Suscribe*/
   .img-bg-01 {
     height: 22rem;

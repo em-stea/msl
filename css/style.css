@@ -1333,12 +1333,16 @@ p {
 /*Footer*/
 .bg-footer {
   background-color: #d6017f;
-  padding-left: 2rem;
 }
 
 .logo-footer {
   padding-top: 2rem;
-  width: 6%;
+  padding-left: 1rem;
+  width: 8%;
+}
+
+.box-text-footer {
+  padding-left: 1.5rem;
 }
 
 .box-text-footer h1 {
