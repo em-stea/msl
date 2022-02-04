@@ -4,8 +4,8 @@
 ini_set('display_errors', 1);
 
 $db_host = 'localhost';
-$db_name = 'telocreo_db';
-$db_user = 'telocreo';
+$db_name = 'msl_db';
+$db_user = 'msl';
 $db_pass = 'milmillonesdeeuros';
 
 // de acá para abajo, no tocar

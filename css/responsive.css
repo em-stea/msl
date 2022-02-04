@@ -10,3 +10,275 @@
     text-align: end;
   }
 }
+
+@media screen and (max-width: 300px) {
+  /*Quienes somos*/
+  .img-quienes-somos {
+    height: 12rem;
+  }
+  /*Rotadores*/
+  .box-home {
+    top: -2.5rem;
+    font-size: 30px;
+  }
+  .box-home p {
+    top: 9.5rem;
+  }
+  .box-text {
+    left: 21px;
+    line-height: 4rem;
+    top: 4.8rem;
+  }
+  .box-text ul li {
+    font-size: 19px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -70px;
+    }
+    30% {
+      margin-top: -70px;
+    }
+    40% {
+      margin-top: -140px;
+    }
+    50% {
+      margin-top: -140px;
+    }
+    60% {
+      margin-top: -70px;
+    }
+    75% {
+      margin-top: -70px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -70px;
+    }
+    30% {
+      margin-top: -70px;
+    }
+    40% {
+      margin-top: -140px;
+    }
+    50% {
+      margin-top: -140px;
+    }
+    60% {
+      margin-top: -70px;
+    }
+    75% {
+      margin-top: -70px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .btn-sumate-rotador {
+    top: 8rem;
+    left: 55px;
+    width: 60%;
+    height: 38px;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  /*Quienes somos*/
+  .box-quienes-somos {
+    padding: 2rem 1.5rem;
+  }
+  .box-quienes-somos h1 {
+    font-size: 2.5rem;
+  }
+  /*Accordion*/
+  .button-image-accordion p {
+    font-size: 1.5rem;
+  }
+  .button-image-accordion-02 p {
+    font-size: 1.3rem;
+  }
+  .accordion-button::after {
+    margin-left: 0;
+  }
+  .pills-accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pills-accordion p {
+    margin: 1rem;
+    width: 90%;
+    padding: 1.5rem 2.5rem;
+  }
+  .text-collapse {
+    width: 90%;
+    padding: 4rem 0;
+  }
+  .text-collapse-02 {
+    height: 26rem;
+  }
+  /*Pills*/
+  .row-pill {
+    margin: 2rem 0;
+  }
+  .pill-01 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10rem;
+  }
+  .pill-01 p {
+    font-size: 1.5rem;
+  }
+  .img-pill-01,
+  .img-pill-02,
+  .img-pill-03 {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  .container-elements-pill {
+    width: auto;
+    margin-left: 0;
+  }
+  .card-collapse {
+    top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+  }
+  /*Fundadora*/
+  .background-fundadora h1 {
+    font-size: 2rem;
+  }
+  .img-anita {
+    height: 19rem;
+  }
+  .box-text-founder .text-first,
+  .box-text-founder .text-second,
+  .box-text-founder .text-third {
+    width: 90%;
+  }
+  /*Embajadoras*/
+  .bg-texture-01 {
+    margin-top: 2rem;
+  }
+  .ancho-row {
+    width: 100%;
+  }
+  .card-body {
+    padding: 1rem 0;
+  }
+  /*Sumate*/
+  .bg-sumate {
+    height: 36rem;
+  }
+  .bg-sumate span {
+    left: 7rem;
+    bottom: 10rem;
+  }
+  .btn-enviar {
+    width: 100%;
+  }
+  /*Box number*/
+  .flex-box-number {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-number {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  /*Colaborar*/
+  .img-colaborar h1 {
+    font-size: 2rem;
+  }
+  .flex-box-colaborar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-colaborar-01,
+  .img-colaborar-02,
+  .img-colaborar-03 {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .btn-colaborar {
+    text-align: center;
+  }
+  /*Aula virtual*/
+  .tarjeta {
+    height: 40rem;
+  }
+  .text-proximamente {
+    font-size: 2rem;
+  }
+  .text-adquiere,
+  .text-oportunity {
+    width: 90%;
+  }
+  /*Cumbre*/
+  .box-text-cumbre {
+    padding: 2rem 0;
+  }
+  /*Encontranos*/
+  .find-text {
+    font-size: 2rem;
+  }
+  .box-icon p {
+    margin-bottom: 4rem;
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  /*Footer*/
+  .logo-footer {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  .box-rrss {
+    margin-bottom: 3rem;
+  }
+  .bg-footer-2 {
+    padding: 2rem 2rem;
+  }
+  .bg-footer-2 p:first-child {
+    padding-bottom: 0;
+  }
+}

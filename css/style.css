@@ -1384,6 +1384,12 @@ p {
   text-decoration: underline;
 }
 
+/*Map*/
+iframe {
+  width: 100%;
+  height: 50vh;
+}
+
 /*Como colaborar*/
 .img-como-colaborar {
   background-image: url(../img/img-como-colaborar.jpg);
