@@ -3,6 +3,10 @@
 /***Text***/
 @media screen and (max-width: 987px) {
   /***Navbar***/
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .navbar-nav {
     margin-right: 0;
   }
@@ -12,22 +16,21 @@
 }
 
 @media screen and (max-width: 300px) {
-  /*Quienes somos*/
-  .img-quienes-somos {
-    height: 12rem;
-  }
   /*Rotadores*/
   .box-home {
     top: -2.5rem;
     font-size: 30px;
   }
   .box-home p {
-    top: 9.5rem;
+    top: 10.5rem;
+    font-size: 1.3rem;
   }
   .box-text {
     left: 21px;
     line-height: 4rem;
-    top: 4.8rem;
+    top: 5.8rem;
+    height: 19px;
+    line-height: 19px;
   }
   .box-text ul li {
     font-size: 19px;
@@ -40,22 +43,22 @@
       margin-top: 0;
     }
     20% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     30% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     40% {
-      margin-top: -140px;
+      margin-top: -38px;
     }
     50% {
-      margin-top: -140px;
+      margin-top: -38px;
     }
     60% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     75% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     85% {
       margin-top: 0px;
@@ -72,22 +75,22 @@
       margin-top: 0;
     }
     20% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     30% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     40% {
-      margin-top: -140px;
+      margin-top: -38px;
     }
     50% {
-      margin-top: -140px;
+      margin-top: -38px;
     }
     60% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     75% {
-      margin-top: -70px;
+      margin-top: -19px;
     }
     85% {
       margin-top: 0px;
@@ -100,9 +103,19 @@
     top: 8rem;
     left: 55px;
     width: 60%;
-    height: 38px;
+    height: 35px;
     padding-top: 0.5rem;
     font-size: 0.8rem;
+  }
+  /*Suscribe*/
+  .img-bg-01 {
+    height: 22rem;
+  }
+  .img-bg-01 h1 {
+    padding-top: 3rem;
+  }
+  .form-control {
+    width: 100%;
   }
   /*Quienes somos*/
   .box-quienes-somos {
@@ -111,15 +124,19 @@
   .box-quienes-somos h1 {
     font-size: 2.5rem;
   }
+  .img-quienes-somos {
+    height: 12rem;
+  }
   /*Accordion*/
   .button-image-accordion p {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .button-image-accordion-02 p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   .accordion-button::after {
     margin-left: 0;
+    width: 3.25rem;
   }
   .pills-accordion {
     -webkit-box-orient: vertical;
@@ -129,8 +146,11 @@
   }
   .pills-accordion p {
     margin: 1rem;
-    width: 90%;
-    padding: 1.5rem 2.5rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1rem;
   }
   .text-collapse {
     width: 90%;
@@ -175,10 +195,17 @@
     width: auto;
     margin-left: 0;
   }
+  .card-body {
+    font-size: 1rem;
+  }
   .card-collapse {
     top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem 0.5rem;
+  }
+  /*Equipo*/
+  .img-equipo p {
+    font-size: 1rem;
   }
   /*Fundadora*/
   .background-fundadora h1 {
@@ -191,6 +218,9 @@
   .box-text-founder .text-second,
   .box-text-founder .text-third {
     width: 90%;
+  }
+  .box-text-founder h1 {
+    font-size: 2rem;
   }
   /*Embajadoras*/
   .bg-texture-01 {
@@ -212,6 +242,20 @@
   }
   .btn-enviar {
     width: 100%;
+    margin-top: 1rem;
+  }
+  .flex-div-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .flex-div-form input {
+    margin-bottom: 1rem;
+  }
+  .form-sumate {
+    padding: 3rem 0;
   }
   /*Box number*/
   .flex-box-number {
@@ -233,6 +277,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .img-colaborar-01,
   .img-colaborar-02,
@@ -245,7 +292,7 @@
   }
   /*Aula virtual*/
   .tarjeta {
-    height: 40rem;
+    height: 35rem;
   }
   .text-proximamente {
     font-size: 2rem;
@@ -256,7 +303,27 @@
   }
   /*Cumbre*/
   .box-text-cumbre {
-    padding: 2rem 0;
+    padding: 5rem 0;
+  }
+  .box-text-cumbre h1 {
+    width: 95%;
+    font-size: 2.3rem;
+  }
+  .row-flex-cumbre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bg-cumbre {
+    height: 23rem;
+  }
+  .bg-cumbre h1 {
+    height: 23rem;
+    font-size: 2.8rem;
   }
   /*Encontranos*/
   .find-text {
@@ -264,13 +331,13 @@
   }
   .box-icon p {
     margin-bottom: 4rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 90%;
   }
   /*Footer*/
   .logo-footer {
-    width: 50%;
-    margin-bottom: 2rem;
+    width: 30%;
+    margin-bottom: 1rem;
   }
   .box-rrss {
     margin-bottom: 3rem;
@@ -278,7 +345,1055 @@
   .bg-footer-2 {
     padding: 2rem 2rem;
   }
+  .box-text-footer p {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
   .bg-footer-2 p:first-child {
     padding-bottom: 0;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 400px) {
+  /*Rotadores*/
+  .box-home {
+    top: -2.5rem;
+    font-size: 30px;
+  }
+  .box-home p {
+    left: 0.1rem;
+    top: 12.5rem;
+    font-size: 1.3rem;
+  }
+  .box-text {
+    left: 48px;
+    line-height: 4rem;
+    top: 6.8rem;
+    height: 19px;
+    line-height: 19px;
+  }
+  .box-text ul li {
+    font-size: 19px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -19px;
+    }
+    30% {
+      margin-top: -19px;
+    }
+    40% {
+      margin-top: -38px;
+    }
+    50% {
+      margin-top: -38px;
+    }
+    60% {
+      margin-top: -19px;
+    }
+    75% {
+      margin-top: -19px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -19px;
+    }
+    30% {
+      margin-top: -19px;
+    }
+    40% {
+      margin-top: -38px;
+    }
+    50% {
+      margin-top: -38px;
+    }
+    60% {
+      margin-top: -19px;
+    }
+    75% {
+      margin-top: -19px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .btn-sumate-rotador {
+    top: 10rem;
+    left: 70px;
+    width: 60%;
+    height: 35px;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  /*Suscribe*/
+  .img-bg-01 {
+    height: 22rem;
+  }
+  .img-bg-01 h1 {
+    padding-top: 3rem;
+  }
+  .form-control {
+    width: 100%;
+  }
+  /*Quienes somos*/
+  .box-quienes-somos {
+    padding: 2rem 1.5rem;
+  }
+  .box-quienes-somos h1 {
+    font-size: 2.5rem;
+  }
+  .img-quienes-somos {
+    height: 12rem;
+  }
+  /*Accordion*/
+  .button-image-accordion p {
+    font-size: 2rem;
+  }
+  .button-image-accordion-02 p {
+    font-size: 2rem;
+  }
+  .accordion-button::after {
+    margin-left: 0;
+    width: 3.25rem;
+  }
+  .pills-accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pills-accordion p {
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .text-collapse {
+    width: 90%;
+    padding: 4rem 0;
+  }
+  .text-collapse-02 {
+    height: 26rem;
+  }
+  /*Pills*/
+  .row-pill {
+    margin: 2rem 0;
+  }
+  .pill-01 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10rem;
+  }
+  .pill-01 p {
+    font-size: 1.5rem;
+  }
+  .img-pill-01,
+  .img-pill-02,
+  .img-pill-03 {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  .container-elements-pill {
+    width: auto;
+    margin-left: 0;
+  }
+  .card-body {
+    font-size: 1rem;
+  }
+  .card-collapse {
+    top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+  }
+  /*Equipo*/
+  .img-equipo p {
+    font-size: 1rem;
+  }
+  /*Fundadora*/
+  .background-fundadora h1 {
+    font-size: 2rem;
+  }
+  .img-anita {
+    height: 19rem;
+  }
+  .box-text-founder .text-first,
+  .box-text-founder .text-second,
+  .box-text-founder .text-third {
+    width: 90%;
+  }
+  .box-text-founder h1 {
+    font-size: 2rem;
+  }
+  /*Embajadoras*/
+  .bg-texture-01 {
+    margin-top: 2rem;
+  }
+  .ancho-row {
+    width: 100%;
+  }
+  .card-body {
+    padding: 1rem 0;
+  }
+  /*Sumate*/
+  .bg-sumate {
+    height: 36rem;
+  }
+  .bg-sumate span {
+    left: 7rem;
+    bottom: 10rem;
+  }
+  .btn-enviar {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .flex-div-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .flex-div-form input {
+    margin-bottom: 1rem;
+  }
+  .form-sumate {
+    padding: 3rem 0;
+  }
+  /*Box number*/
+  .flex-box-number {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-number {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  /*Colaborar*/
+  .img-colaborar h1 {
+    font-size: 2rem;
+  }
+  .flex-box-colaborar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-colaborar-01,
+  .img-colaborar-02,
+  .img-colaborar-03 {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .btn-colaborar {
+    text-align: center;
+  }
+  /*Aula virtual*/
+  .tarjeta {
+    height: 35rem;
+  }
+  .text-proximamente {
+    font-size: 2rem;
+  }
+  .text-adquiere,
+  .text-oportunity {
+    width: 90%;
+  }
+  /*Cumbre*/
+  .box-text-cumbre {
+    padding: 5rem 0;
+  }
+  .box-text-cumbre h1 {
+    width: 95%;
+    font-size: 2.3rem;
+  }
+  .row-flex-cumbre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bg-cumbre {
+    height: 23rem;
+  }
+  .bg-cumbre h1 {
+    height: 23rem;
+    font-size: 2.8rem;
+  }
+  /*Encontranos*/
+  .find-text {
+    font-size: 2rem;
+  }
+  .box-icon p {
+    margin-bottom: 4rem;
+    font-size: 0.7rem;
+    width: 90%;
+  }
+  /*Footer*/
+  .logo-footer {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  .box-rrss {
+    margin-bottom: 3rem;
+  }
+  .bg-footer-2 {
+    padding: 2rem 2rem;
+  }
+  .box-text-footer p {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .bg-footer-2 p:first-child {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+  /*Rotadores*/
+  .box-home {
+    top: -2.5rem;
+    font-size: 30px;
+  }
+  .box-home p {
+    left: 0.1rem;
+    top: 13.5rem;
+    font-size: 2.3rem;
+  }
+  .box-text {
+    left: 42px;
+    line-height: 4rem;
+    top: 8.8rem;
+    height: 31px;
+    line-height: 30px;
+  }
+  .box-text ul li {
+    font-size: 30px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -30px;
+    }
+    30% {
+      margin-top: -30px;
+    }
+    40% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -60px;
+    }
+    60% {
+      margin-top: -30px;
+    }
+    75% {
+      margin-top: -30px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -30px;
+    }
+    30% {
+      margin-top: -30px;
+    }
+    40% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -60px;
+    }
+    60% {
+      margin-top: -30px;
+    }
+    75% {
+      margin-top: -30px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .btn-sumate-rotador {
+    top: 12rem;
+    left: 87px;
+    width: 60%;
+    height: 35px;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  /*Suscribe*/
+  .img-bg-01 {
+    height: 22rem;
+  }
+  .img-bg-01 h1 {
+    padding-top: 3rem;
+  }
+  .form-control {
+    width: 100%;
+  }
+  /*Quienes somos*/
+  .box-quienes-somos {
+    padding: 2rem 1.5rem;
+  }
+  .box-quienes-somos h1 {
+    font-size: 2.5rem;
+  }
+  .img-quienes-somos {
+    height: 12rem;
+  }
+  /*Accordion*/
+  .button-image-accordion p {
+    font-size: 2rem;
+  }
+  .button-image-accordion-02 p {
+    font-size: 1.8rem;
+  }
+  .accordion-button::after {
+    margin-left: 0;
+    width: 3.25rem;
+  }
+  .pills-accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pills-accordion p {
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .text-collapse {
+    width: 90%;
+    padding: 4rem 0;
+  }
+  .text-collapse-02 {
+    height: 26rem;
+  }
+  /*Pills*/
+  .row-pill {
+    margin: 2rem 0;
+  }
+  .pill-01 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10rem;
+  }
+  .pill-01 p {
+    font-size: 1.5rem;
+  }
+  .img-pill-01,
+  .img-pill-02,
+  .img-pill-03 {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  .container-elements-pill {
+    width: auto;
+    margin-left: 0;
+  }
+  .card-body {
+    font-size: 1rem;
+  }
+  .card-collapse {
+    top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+  }
+  /*Equipo*/
+  .img-equipo p {
+    font-size: 1rem;
+  }
+  /*Fundadora*/
+  .background-fundadora h1 {
+    font-size: 2rem;
+  }
+  .img-anita {
+    height: 19rem;
+  }
+  .box-text-founder .text-first,
+  .box-text-founder .text-second,
+  .box-text-founder .text-third {
+    width: 90%;
+  }
+  .box-text-founder h1 {
+    font-size: 2rem;
+  }
+  /*Embajadoras*/
+  .bg-texture-01 {
+    margin-top: 2rem;
+  }
+  .ancho-row {
+    width: 100%;
+  }
+  .card-body {
+    padding: 1rem 0;
+  }
+  /*Sumate*/
+  .bg-sumate {
+    height: 36rem;
+  }
+  .bg-sumate h1 {
+    font-size: 2.5rem;
+  }
+  .bg-sumate h2 {
+    font-size: 2.3rem;
+  }
+  .bg-sumate span {
+    left: 12rem;
+    bottom: 14.5rem;
+  }
+  .btn-enviar {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .flex-div-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .flex-div-form input {
+    margin-bottom: 1rem;
+  }
+  .form-sumate {
+    padding: 3rem 0;
+  }
+  /*Box number*/
+  .flex-box-number {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-number {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+  /*Colaborar*/
+  .img-colaborar h1 {
+    font-size: 2rem;
+  }
+  .flex-box-colaborar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-colaborar-01,
+  .img-colaborar-02,
+  .img-colaborar-03 {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .btn-colaborar {
+    text-align: center;
+  }
+  /*Aula virtual*/
+  .tarjeta {
+    height: 35rem;
+  }
+  .text-proximamente {
+    font-size: 2rem;
+  }
+  .text-adquiere,
+  .text-oportunity {
+    width: 90%;
+  }
+  /*Cumbre*/
+  .box-text-cumbre {
+    padding: 5rem 0;
+  }
+  .box-text-cumbre h1 {
+    width: 95%;
+    font-size: 2.3rem;
+  }
+  .row-flex-cumbre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bg-cumbre {
+    height: 23rem;
+  }
+  .bg-cumbre h1 {
+    height: 23rem;
+    font-size: 2.8rem;
+  }
+  /*Encontranos*/
+  .find-text {
+    font-size: 2rem;
+  }
+  .box-icon p {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+  /*Footer*/
+  .logo-footer {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  .box-rrss {
+    margin-bottom: 3rem;
+  }
+  .bg-footer-2 {
+    padding: 2rem 2rem;
+  }
+  .box-text-footer p {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .bg-footer-2 p:first-child {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  /*Rotadores*/
+  .box-home {
+    top: -2.5rem;
+    font-size: 30px;
+  }
+  .box-home p {
+    left: 0.1rem;
+    top: 14.5rem;
+    font-size: 2.3rem;
+  }
+  .box-text {
+    left: 81px;
+    line-height: 4rem;
+    top: 9.8rem;
+    height: 31px;
+    line-height: 30px;
+  }
+  .box-text ul li {
+    font-size: 30px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -30px;
+    }
+    30% {
+      margin-top: -30px;
+    }
+    40% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -60px;
+    }
+    60% {
+      margin-top: -30px;
+    }
+    75% {
+      margin-top: -30px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    20% {
+      margin-top: -30px;
+    }
+    30% {
+      margin-top: -30px;
+    }
+    40% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -60px;
+    }
+    60% {
+      margin-top: -30px;
+    }
+    75% {
+      margin-top: -30px;
+    }
+    85% {
+      margin-top: 0px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
+  .btn-sumate-rotador {
+    top: 15rem;
+    left: 103px;
+    width: 60%;
+    height: 35px;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  /*Suscribe*/
+  .img-bg-01 {
+    height: 22rem;
+  }
+  .img-bg-01 h1 {
+    padding-top: 3rem;
+  }
+  .form-control {
+    width: 100%;
+  }
+  /*Quienes somos*/
+  .box-quienes-somos {
+    padding: 2rem 1.5rem;
+  }
+  .box-quienes-somos h1 {
+    font-size: 2.5rem;
+  }
+  .img-quienes-somos {
+    height: 12rem;
+  }
+  /*Accordion*/
+  .button-image-accordion p {
+    font-size: 2rem;
+  }
+  .button-image-accordion-02 p {
+    font-size: 1.8rem;
+  }
+  .accordion-button::after {
+    margin-left: 0;
+    width: 3.25rem;
+  }
+  .pills-accordion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pills-accordion p {
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  .text-collapse {
+    width: 90%;
+    padding: 4rem 0;
+  }
+  .text-collapse-02 {
+    height: 26rem;
+  }
+  /*Pills*/
+  .row-pill {
+    margin: 2rem 0;
+  }
+  .pill-01 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10rem;
+  }
+  .pill-01 p {
+    font-size: 1.5rem;
+  }
+  .img-pill-01,
+  .img-pill-02,
+  .img-pill-03 {
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  .container-elements-pill {
+    width: auto;
+    margin-left: 0;
+  }
+  .card-body {
+    font-size: 1rem;
+  }
+  .card-collapse {
+    top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+  }
+  /*Equipo*/
+  .img-equipo p {
+    font-size: 1rem;
+  }
+  /*Fundadora*/
+  .background-fundadora h1 {
+    font-size: 2rem;
+  }
+  .img-anita {
+    height: 19rem;
+  }
+  .box-text-founder .text-first,
+  .box-text-founder .text-second,
+  .box-text-founder .text-third {
+    width: 90%;
+  }
+  .box-text-founder {
+    padding-left: 2rem;
+  }
+  .box-text-founder h1 {
+    font-size: 2rem;
+  }
+  /*Embajadoras*/
+  .bg-texture-01 {
+    margin-top: 2rem;
+  }
+  .ancho-row {
+    width: 100%;
+  }
+  .card-body {
+    padding: 1rem 0;
+  }
+  /*Sumate*/
+  .bg-sumate {
+    height: 36rem;
+  }
+  .bg-sumate h1 {
+    font-size: 3.5rem;
+  }
+  .bg-sumate h2 {
+    font-size: 3.3rem;
+  }
+  .bg-sumate span {
+    left: 15rem;
+    bottom: 16.5rem;
+  }
+  .btn-enviar {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .flex-div-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .flex-div-form input {
+    margin-bottom: 1rem;
+  }
+  .form-sumate {
+    padding: 3rem 0;
+  }
+  /*Box number*/
+  .flex-box-number {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .box-number {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
+  /*Colaborar*/
+  .img-colaborar h1 {
+    font-size: 2rem;
+  }
+  .flex-box-colaborar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .img-colaborar-01,
+  .img-colaborar-02,
+  .img-colaborar-03 {
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+  .img-colaborar-01 h1,
+  .img-colaborar-02 h1,
+  .img-colaborar-03 h1 {
+    font-size: 4rem;
+  }
+  .btn-colaborar {
+    text-align: center;
+  }
+  /*Aula virtual*/
+  .tarjeta {
+    height: 35rem;
+  }
+  .text-proximamente {
+    font-size: 2rem;
+  }
+  .text-adquiere,
+  .text-oportunity {
+    width: 90%;
+  }
+  /*Cumbre*/
+  .box-text-cumbre {
+    padding: 5rem 0;
+  }
+  .box-text-cumbre h1 {
+    width: 95%;
+    font-size: 2.3rem;
+  }
+  .row-flex-cumbre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .bg-cumbre {
+    height: 23rem;
+  }
+  .bg-cumbre h1 {
+    height: 23rem;
+    font-size: 2.8rem;
+  }
+  /*Encontranos*/
+  .find-text {
+    font-size: 3rem;
+  }
+  .box-icon p {
+    margin-bottom: 4rem;
+    font-size: 1rem;
+    width: 90%;
+  }
+  /*Footer*/
+  .logo-footer {
+    width: 30%;
+    margin-bottom: 1rem;
+  }
+  .box-rrss {
+    margin-bottom: 3rem;
+  }
+  .bg-footer-2 {
+    padding: 2rem 2rem;
+  }
+  .box-text-footer p {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .bg-footer-2 p:first-child {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
   }
 }
