@@ -1140,6 +1140,10 @@ p {
   height: 25rem;
 }
 
+.wrap {
+  padding: 0;
+}
+
 .adelante,
 .atras {
   width: 100%;
