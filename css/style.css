@@ -1376,6 +1376,10 @@ p {
   cursor: pointer;
 }
 
+.box-rrss a {
+  text-decoration: none;
+}
+
 .bg-footer-2 {
   background-color: #460387;
   padding-left: 2rem;
