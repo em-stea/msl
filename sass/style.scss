@@ -943,9 +943,6 @@ p {
   transform-style: preserve-3d;
   height: 25rem;
 }
-.wrap {
-  padding: 0;
-}
 .adelante,
 .atras {
   width: 100%;
@@ -970,7 +967,9 @@ p {
   font-weight: 900;
   text-align: center;
 }
-
+.img-atras-aula h1 {
+  padding-top: 3rem;
+}
 .text-proximamente,
 .text-adquiere {
   font-family: "Kite One", sans-serif;
@@ -984,8 +983,7 @@ p {
 .text-adquiere {
   width: 60%;
   text-align: center;
-  margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .text-oportunity {
   width: 60%;
@@ -1137,7 +1135,7 @@ p {
 }
 /*Map*/
 iframe {
-  width: 100%;
+  width: 100vw;
   height: 50vh;
 }
 

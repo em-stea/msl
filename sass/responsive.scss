@@ -241,6 +241,11 @@
     width: 95%;
     margin-bottom: 2rem;
   }
+  .img-colaborar-01 h1,
+  .img-colaborar-02 h1,
+  .img-colaborar-03 h1 {
+    font-size: 3rem;
+  }
   .btn-colaborar {
     text-align: center;
   }
@@ -248,12 +253,21 @@
   .tarjeta {
     height: 35rem;
   }
+  .img-atras-aula h1 {
+    padding-top: 4rem;
+  }
   .text-proximamente {
     font-size: 2rem;
   }
   .text-adquiere,
   .text-oportunity {
     width: 90%;
+  }
+  .text-adquiere {
+    margin-top: 1rem;
+  }
+  .text-oportunity {
+    margin-top: 2rem;
   }
   /*Cumbre*/
   .box-text-cumbre {
@@ -524,6 +538,11 @@
     width: 95%;
     margin-bottom: 2rem;
   }
+  .img-colaborar-01 h1,
+  .img-colaborar-02 h1,
+  .img-colaborar-03 h1 {
+    font-size: 3rem;
+  }
   .btn-colaborar {
     text-align: center;
   }
@@ -533,6 +552,16 @@
   }
   .text-proximamente {
     font-size: 2rem;
+  }
+  .img-atras-aula h1 {
+    font-size: 2.3rem;
+    padding-top: 6rem;
+  }
+  .text-adquiere {
+    margin-top: 1rem;
+  }
+  .text-oportunity {
+    margin-top: 2rem;
   }
   .text-adquiere,
   .text-oportunity {
@@ -837,15 +866,22 @@
   .tarjeta {
     height: 35rem;
   }
+  .img-atras-aula h1 {
+    font-size: 3rem;
+    padding-top: 6rem;
+  }
+  .text-adquiere {
+    margin-top: 1rem;
+  }
+  .text-oportunity {
+    margin-top: 2rem;
+  }
   .text-proximamente {
     font-size: 2rem;
   }
   .text-adquiere,
   .text-oportunity {
     width: 90%;
-  }
-  .atras h1 {
-    font-size: 2.5rem;
   }
   .text-proximamente {
     font-size: 3rem;
@@ -1139,6 +1175,16 @@
   /*Aula virtual*/
   .tarjeta {
     height: 35rem;
+  }
+  .img-atras-aula h1 {
+    font-size: 3rem;
+    padding-top: 7rem;
+  }
+  .text-adquiere {
+    margin-top: 1rem;
+  }
+  .text-oportunity {
+    margin-top: 2rem;
   }
   .text-proximamente {
     font-size: 2rem;
@@ -1441,8 +1487,18 @@
   .tarjeta {
     height: 35rem;
   }
+  .img-atras-aula h1 {
+    font-size: 3.5rem;
+    padding-top: 6rem;
+  }
+  .text-adquiere {
+    margin-top: 1rem;
+  }
+  .text-oportunity {
+    margin-top: 2rem;
+  }
   .text-proximamente {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .text-adquiere,
   .text-oportunity {
