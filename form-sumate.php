@@ -22,3 +22,4 @@ $st->execute($sql_params);
 //echo '<h4>¡Mail enviado exitosamente!</h4>';
 header('Location: ' . 'form-success-sumate.html');
 
+?>
