@@ -11,7 +11,7 @@ $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 
 /*guardo los datos en la db*/
-$sql = 'insert into sumate (nombre,apellido, email, telefono) values (?, ?)'; //nombres de las columnas de la db
+$sql = 'insert into sumate (nombre,apellido, email, telefono) values (?, ?, ?, ?)'; //nombres de las columnas de la db
 $sql_params = [$nombre, $apellido, $email, $telefono];
 
 $st = $db->prepare($sql);
