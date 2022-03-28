@@ -140,24 +140,34 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10rem;
+    height: 7rem;
   }
   .pill-01 p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
   .img-pill-01,
   .img-pill-02,
   .img-pill-03 {
+    width: 7rem;
+    height: 7rem;
+    padding-top: 2rem;
     margin-left: 0;
-    margin-top: 2rem;
     padding-top: 1rem;
   }
   .container-elements-pill {
     width: auto;
-    margin-left: 0;
+    height: auto;
+    margin-top: 0;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
   }
   .card-body {
     font-size: 1rem;
@@ -166,6 +176,19 @@
     top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem 0.5rem;
+  }
+  .container-elements-pill span {
+    font-size: 0.7rem;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
+  }
+  .col-padding {
+    padding: 0;
+  }
+  .container-pill-two {
+    margin-top: 1rem;
+    width: 35%;
   }
   /*Equipo*/
   .img-equipo p {
@@ -188,6 +211,9 @@
     font-size: 2rem;
   }
   /*Embajadoras*/
+  .bg-texture-01 h1 {
+    font-size: 2rem;
+  }
   .bg-texture-01 {
     margin-top: 2rem;
   }
@@ -493,24 +519,26 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10rem;
-  }
-  .pill-01 p {
-    font-size: 1.5rem;
+    height: 8rem;
   }
   .img-pill-01,
   .img-pill-02,
   .img-pill-03 {
-    margin-left: 0;
-    margin-top: 2rem;
-    padding-top: 1rem;
+    width: 8rem;
+    height: 8rem;
+    padding-top: 2rem;
+  }
+  .pill-01 p {
+    font-size: 1.1rem;
   }
   .container-elements-pill {
     width: auto;
-    margin-left: 0;
+    margin-left: auto;
+    height: auto;
+    margin-top: 0;
   }
   .card-body {
     font-size: 1rem;
@@ -519,6 +547,12 @@
     top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem 0.5rem;
+  }
+  .container-elements-pill span {
+    font-size: 0.8rem;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
   }
   /*Equipo*/
   .img-equipo p {
@@ -541,6 +575,9 @@
     font-size: 2rem;
   }
   /*Embajadoras*/
+  .bg-texture-01 h1 {
+    font-size: 2rem;
+  }
   .bg-texture-01 {
     margin-top: 2rem;
   }
@@ -906,24 +943,28 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 10rem;
+    height: 9rem;
   }
   .pill-01 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .img-pill-01,
   .img-pill-02,
   .img-pill-03 {
-    margin-left: 0;
-    margin-top: 2rem;
+    //margin-left: 0;
+    //margin-top: 2rem;
     padding-top: 1rem;
+    width: 9rem;
+    height: 9rem;
   }
   .container-elements-pill {
-    width: auto;
-    margin-left: 0;
+    //width: auto;
+    //margin-left: 0;
+    height: auto;
+    margin-top: 0;
   }
   .card-body {
     font-size: 1rem;
@@ -1272,7 +1313,7 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 10rem;
@@ -1283,13 +1324,18 @@
   .img-pill-01,
   .img-pill-02,
   .img-pill-03 {
-    margin-left: 0;
-    margin-top: 2rem;
+    //margin-left: 0;
+    //margin-top: 2rem;
     padding-top: 1rem;
   }
   .container-elements-pill {
-    width: auto;
-    margin-left: 0;
+    width: 59%;
+    //margin-left: 0;
+    height: auto;
+    margin-top: 0;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
   }
   .card-body {
     font-size: 1rem;
@@ -1626,24 +1672,32 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: column;
+    //flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 10rem;
   }
   .pill-01 p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .img-pill-01,
   .img-pill-02,
   .img-pill-03 {
-    margin-left: 0;
-    margin-top: 2rem;
+    //margin-left: 0;
+    //margin-top: 2rem;
     padding-top: 1rem;
   }
   .container-elements-pill {
-    width: auto;
-    margin-left: 0;
+    width: 60%;
+    margin-top: 0;
+    height: auto;
+    //margin-left: 0;
+  }
+  .container-elements-pill span {
+    font-size: 1.5rem;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
   }
   .card-body {
     font-size: 1rem;
@@ -1862,5 +1916,74 @@
   }
   .modal-content {
     margin-top: 16rem;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 900px) {
+  .box-home p {
+    top: 3.5em;
+  }
+  .box-text {
+    left: 10px;
+    top: 3em;
+  }
+  .btn-sumate-rotador {
+    top: 16em;
+    left: 274px;
+    width: 30%;
+  }
+  .accordion-button::after {
+    margin-left: -1rem;
+  }
+  .box-icon p {
+    font-size: 0.7rem;
+  }
+  /*Pills*/
+  .row-pill {
+    margin: 2rem 0;
+  }
+  .pill-01 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    //flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+  }
+  .pill-01 p {
+    font-size: 1.1rem;
+  }
+  .img-pill-01,
+  .img-pill-02,
+  .img-pill-03 {
+    width: 8rem;
+    height: 6rem;
+    //margin-left: 0;
+    //margin-top: 2rem;
+    padding-top: 1rem;
+  }
+  .container-elements-pill {
+    width: 55%;
+    margin-top: 0;
+    height: auto;
+    //margin-left: 0;
+  }
+  .container-elements-pill span {
+    font-size: 0.9rem;
+  }
+  .text-prox {
+    margin-bottom: 0 !important;
+  }
+  .card-body {
+    font-size: 1rem;
+  }
+  .card-collapse {
+    top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0.5rem;
+  }
+  .col-padding {
+    padding: 0 0.3rem;
   }
 }

@@ -293,6 +293,7 @@ p {
 }
 .accordion-button:not(.collapsed)::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  transform: rotate(0deg);
 }
 .title-accordion {
   color: $colour-violet-1;
@@ -365,7 +366,7 @@ p {
   height: 10rem;
   border-radius: 100px;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   display: flex;
   align-items: center;
 }
@@ -384,10 +385,14 @@ p {
 }
 .container-elements-pill {
   width: 53%;
-  height: 100%;
+  //height: 100%;
+  height: auto;
   margin-left: 2rem;
-  margin-top: 3rem;
+  //margin-top: 3rem;
   text-align: center;
+}
+.text-prox {
+  margin-bottom: 0;
 }
 %module-image-pill {
   background-position: center;
@@ -479,6 +484,7 @@ p {
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
+  margin-top: 2rem;
 }
 .img-equipo h1 {
   color: white;
@@ -1029,6 +1035,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 33rem;
+  text-align: center;
 }
 .box-text-cumbre h1 {
   width: 80%;
